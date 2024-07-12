@@ -1,0 +1,48 @@
+{
+  "id" : "BaseModel",
+  "metainfo" : {
+    "label" : "BaseModel",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "BaseModel##ZyPMePN1" : {
+      "id" : "BaseModel##ZyPMePN1",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "BaseModel",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "tmTgSsXa",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "SVPCRMfu",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}
